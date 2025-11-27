@@ -1,0 +1,25 @@
+{
+  "name": "livre-contracts",
+  "version": "1.0.0",
+  "description": "LIVRE OS / Solivre smart contracts",
+  "type": "module",
+  "scripts": {
+    "test": "npx hardhat test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^3.0.5",
+    "@nomicfoundation/hardhat-ignition-viem": "^3.0.5",
+    "@nomicfoundation/hardhat-keystore": "^3.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^3.0.0",
+    "@nomicfoundation/hardhat-node-test-runner": "^3.0.0",
+    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.1",
+    "@nomicfoundation/hardhat-verify": "^3.0.0",
+    "@nomicfoundation/hardhat-viem": "^3.0.0",
+    "@nomicfoundation/hardhat-viem-assertions": "^3.0.0",
+    "@types/node": "^22.8.5",
+    "forge-std": "github:foundry-rs/forge-std#v1.9.4",
+    "hardhat": "^3.0.0",
+    "typescript": "~5.8.0",
+    "viem": "^2.30.0"
+  }
+}
