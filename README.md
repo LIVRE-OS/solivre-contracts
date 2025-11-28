@@ -1,3 +1,31 @@
+# Solivre Contracts
+
+Core on-chain pieces for **LIVRE OS / Solivre**.
+
+This repo currently contains:
+
+- `SolivreKernel.sol` – minimal identity kernel: register + update records
+- `ProofOrchestrator.sol` – (stub) future coordinator for proof templates
+- Hardhat + Ignition setup for local development and deployment
+- Foundry-style Solidity tests using `forge-std`
+
+> ⚠️ Everything here is experimental and not audited.  
+> Do **not** use these contracts in production or with real value.
+
+---
+
+## Prerequisites
+
+- Node 20+
+- npm
+- (Optional) `curl` or Postman if you want to poke the JSON-RPC
+
+Install dependencies:
+
+```bash
+npm install
+
+
 # Sample Hardhat 3 Beta Project (`node:test` and `viem`)
 
 This project showcases a Hardhat 3 Beta project using the native Node.js test runner (`node:test`) and the `viem` library for Ethereum interactions.
